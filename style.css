@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#today {
+    text-align: center;
+}
+
+#section-today {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.text{
+    background-color: white;
+    width: 280px;
+    margin-top: -20px;
+    height: 100px;
+}
+
+.name {
+    font-size: 16px;
+    padding-top: 15px;
+    margin-left: 5px;
+}
+
+.link {
+    font-size: 10px;
+    color: gray;
+    margin-top: -8px;
+    margin-left: 5px;
+}
+
+.pay {
+    margin-top: -5px;
+    margin-left: 5px;
+}
