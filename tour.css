@@ -1,0 +1,79 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#section1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#section1 .wrap h2 {
+    padding: 10px;
+}
+
+.section-popular {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 11px;
+}
+
+.popular span {
+    text-align: center;
+}
+
+.section-event {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section-event .bg {
+    background-image: url(img2.jpg);
+    width: 520px;
+}
+
+.section-event .event {
+    margin: 15px;
+}
+
+.section-event p {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+ }
+
+ .section-guide {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-guide .guide {
+    padding: 13px;
+}
+
+.text{
+    border: 1px solid gray;
+    width: 247px;
+    margin-top: -4px;
+    height: 160px;
+}
+.text .margin {
+    margin-left: 5px;
+ }
+
+ .text h4 {
+       margin-top: -15px;
+ }
+
+.section-guide .text .review {
+    color: dodgerblue;
+    margin-bottom: -15px;
+}
